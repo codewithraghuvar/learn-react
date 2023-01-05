@@ -7,6 +7,10 @@ import StateClassComponent from './components/state/StateClassComponent';
 import FunctionEvent from './components/event-binding/FunctionEvent';
 import ClassEvent from './components/event-binding/ClassEvent';
 import FunctionalCounter from './components/hooks/FunctionalCounter';
+import ConditionalRendering from './components/conditional-rendering/ConditionalRendering';
+import ListRendering from './components/list-rendering/ListRendering';
+import RenderingIndexKey from './components/list-rendering/RenderingIndexKeys';
+import UniqueKeyRendering from './components/list-rendering/UniqueKeyRendering';
 /**
  * 
  * @returns youtube tutorails link
@@ -24,10 +28,13 @@ function App() {
           <StateClassComponent/>
           <FunctionEvent/>
           <ClassEvent/>
-          
+          <FunctionalCounter/>
+          <ConditionalRendering/>
+          <ListRendering/>
+          <RenderingIndexKey/>
         */
         }
-        <FunctionalCounter/>
+        <UniqueKeyRendering/>
       </header>
     </div>
   );
