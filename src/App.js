@@ -11,11 +11,10 @@ import ConditionalRendering from './components/conditional-rendering/Conditional
 import ListRendering from './components/list-rendering/ListRendering';
 import RenderingIndexKey from './components/list-rendering/RenderingIndexKeys';
 import UniqueKeyRendering from './components/list-rendering/UniqueKeyRendering';
-/**
- * 
- * @returns youtube tutorails link
- * https://www.youtube.com/watch?v=7ASgwDgKlDM&list=PLSsAz5wf2lkK_ekd0J__44KG6QoXetZza&index=15
- */
+import UserInputForm from './components/userinputform/UserInputForm';
+import FragmentComponent from './components/fragments/FragmentComponent';
+import MemosParentComponent from './components/memos/MemosParentComponent';
+
 function App() {
   return (
     <div className="App">
@@ -32,9 +31,13 @@ function App() {
           <ConditionalRendering/>
           <ListRendering/>
           <RenderingIndexKey/>
+          <UniqueKeyRendering/>
+          <UserInputForm/>
+          <FragmentComponent/>
         */
         }
-        <UniqueKeyRendering/>
+        
+        <MemosParentComponent/>
       </header>
     </div>
   );
