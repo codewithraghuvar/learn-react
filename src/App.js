@@ -14,6 +14,7 @@ import UniqueKeyRendering from './components/list-rendering/UniqueKeyRendering';
 import UserInputForm from './components/userinputform/UserInputForm';
 import FragmentComponent from './components/fragments/FragmentComponent';
 import MemosParentComponent from './components/memos/MemosParentComponent';
+import Modal from './components/portals/Modal';
 
 function App() {
   return (
@@ -34,10 +35,11 @@ function App() {
           <UniqueKeyRendering/>
           <UserInputForm/>
           <FragmentComponent/>
+          <MemosParentComponent/>
         */
         }
+        <Modal/>
         
-        <MemosParentComponent/>
       </header>
     </div>
   );
